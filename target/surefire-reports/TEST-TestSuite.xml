@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="86.498" tests="3" errors="0" skipped="2" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Selenium Training\My work\WebdriverTest\target\test-classes;C:\Selenium Training\My work\WebdriverTest\target\classes;C:\Users\sarveshkumar.jain\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\seleniumhq\selenium\selenium-java\2.45.0\selenium-java-2.45.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.45.0\selenium-chrome-driver-2.45.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.45.0\selenium-remote-driver-2.45.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\sarveshkumar.jain\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\seleniumhq\selenium\selenium-api\2.45.0\selenium-api-2.45.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.45.0\selenium-htmlunit-driver-2.45.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.15\htmlunit-2.15.jar;C:\Users\sarveshkumar.jain\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\sarveshkumar.jain\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\sarveshkumar.jain\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\apache\httpcomponents\httpmime\4.3.3\httpmime-4.3.3.jar;C:\Users\sarveshkumar.jain\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\sarveshkumar.jain\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.15\htmlunit-core-js-2.15.jar;C:\Users\sarveshkumar.jain\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\sarveshkumar.jain\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.21\nekohtml-1.9.21.jar;C:\Users\sarveshkumar.jain\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.14\cssparser-0.9.14.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\sarveshkumar.jain\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.15.v20140411\jetty-websocket-8.1.15.v20140411.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\eclipse\jetty\jetty-util\8.1.15.v20140411\jetty-util-8.1.15.v20140411.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\eclipse\jetty\jetty-io\8.1.15.v20140411\jetty-io-8.1.15.v20140411.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\eclipse\jetty\jetty-http\8.1.15.v20140411\jetty-http-8.1.15.v20140411.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\apache\httpcomponents\httpclient\4.3.6\httpclient-4.3.6.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\apache\httpcomponents\httpcore\4.3.3\httpcore-4.3.3.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.45.0\selenium-firefox-driver-2.45.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.45.0\selenium-ie-driver-2.45.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.45.0\selenium-safari-driver-2.45.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\seleniumhq\selenium\selenium-support\2.45.0\selenium-support-2.45.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\Users\sarveshkumar.jain\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.45.0\selenium-leg-rc-2.45.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\sarveshkumar.jain\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_201\bin"/>
+    <property name="sun.java.command" value="C:\Users\SARVES~1.JAI\AppData\Local\Temp\surefire134500389660897729\surefirebooter7046484372586121744.jar C:\Users\sarveshkumar.jain\AppData\Local\Temp\surefire134500389660897729 2019-03-19T17-20-14_066-jvmRun1 surefire6042341000721642695tmp surefire_01900543762907990823tmp"/>
+    <property name="surefire.test.class.path" value="C:\Selenium Training\My work\WebdriverTest\target\test-classes;C:\Selenium Training\My work\WebdriverTest\target\classes;C:\Users\sarveshkumar.jain\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\seleniumhq\selenium\selenium-java\2.45.0\selenium-java-2.45.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.45.0\selenium-chrome-driver-2.45.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.45.0\selenium-remote-driver-2.45.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\sarveshkumar.jain\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\seleniumhq\selenium\selenium-api\2.45.0\selenium-api-2.45.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.45.0\selenium-htmlunit-driver-2.45.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.15\htmlunit-2.15.jar;C:\Users\sarveshkumar.jain\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\sarveshkumar.jain\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\sarveshkumar.jain\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\apache\httpcomponents\httpmime\4.3.3\httpmime-4.3.3.jar;C:\Users\sarveshkumar.jain\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\sarveshkumar.jain\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.15\htmlunit-core-js-2.15.jar;C:\Users\sarveshkumar.jain\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\sarveshkumar.jain\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.21\nekohtml-1.9.21.jar;C:\Users\sarveshkumar.jain\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.14\cssparser-0.9.14.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\sarveshkumar.jain\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.15.v20140411\jetty-websocket-8.1.15.v20140411.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\eclipse\jetty\jetty-util\8.1.15.v20140411\jetty-util-8.1.15.v20140411.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\eclipse\jetty\jetty-io\8.1.15.v20140411\jetty-io-8.1.15.v20140411.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\eclipse\jetty\jetty-http\8.1.15.v20140411\jetty-http-8.1.15.v20140411.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\apache\httpcomponents\httpclient\4.3.6\httpclient-4.3.6.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\apache\httpcomponents\httpcore\4.3.3\httpcore-4.3.3.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.45.0\selenium-firefox-driver-2.45.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.45.0\selenium-ie-driver-2.45.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.45.0\selenium-safari-driver-2.45.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\seleniumhq\selenium\selenium-support\2.45.0\selenium-support-2.45.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\Users\sarveshkumar.jain\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.45.0\selenium-leg-rc-2.45.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\sarveshkumar.jain\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\sarveshkumar.jain\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sarveshkumar.jain"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_201"/>
+    <property name="basedir" value="C:\Selenium Training\My work\WebdriverTest"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\SARVES~1.JAI\AppData\Local\Temp\surefire134500389660897729\surefirebooter7046484372586121744.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_201\lib\resources.jar;C:\Program Files\Java\jre1.8.0_201\lib\rt.jar;C:\Program Files\Java\jre1.8.0_201\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_201\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_201\lib\jce.jar;C:\Program Files\Java\jre1.8.0_201\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_201\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_201\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="user.name" value="sarveshkumar.jain"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_201\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="localRepository" value="C:\Users\sarveshkumar.jain\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SARVES~1.JAI\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="user.dir" value="C:\Selenium Training\My work\WebdriverTest"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_201\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_201/bin/client;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/i386;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\RSA SecurID Token Common;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Symantec\Symantec Endpoint Encryption Clients\;C:\Program Files\WebEx\Productivity Tools;C:\Program Files\WebEx\PTools020000000;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Selenium Training\Downloads\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_201\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="beforeTest" classname="example.NewTest" time="84.228">
+    <failure message="Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: &#10;ous5092838128205688924webdriver-profile\\extensions\\fxdriver@googlecode.com&quot;,&quot;e&quot;:false,&quot;v&quot;:&quot;2.45.0&quot;,&quot;st&quot;:1552996220941,&quot;mt&quot;:1552996220391}},&quot;app-system-defaults&quot;:{&quot;e10srollout@mozilla.org&quot;:{&quot;d&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.3&quot;,&quot;st&quot;:1476903776000},&quot;firefox@getpocket.com&quot;:{&quot;d&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.0.4&quot;,&quot;st&quot;:1476903776000},&quot;webcompat@mozilla.org&quot;:{&quot;d&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.0&quot;,&quot;st&quot;:1476903776000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;49.0.2&quot;,&quot;st&quot;:1476903776000}},&quot;winreg-app-global&quot;:{&quot;{D19CA586-DD6C-4a0a-96F8-14644F340D60}&quot;:{&quot;d&quot;:&quot;C:\\Program Files\\Common Files\\McAfee\\SystemCore&quot;,&quot;e&quot;:false,&quot;v&quot;:&quot;15.4.0&quot;,&quot;st&quot;:1552989588584,&quot;mt&quot;:1548842431104}}}&#10;1552996239636	addons.xpi	DEBUG	No changes found&#10;1552996239651	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi&#10;1552996239652	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi&#10;1552996239671	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.3&#10;1552996239672	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi&#10;1552996239674	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi&#10;1552996239681	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.4&#10;1552996239700	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\SARVES~1.JAI\AppData\Local\Temp\anonymous5092838128205688924webdriver-profile\extensions.json&#10;1552996239702	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi&#10;1552996239703	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi&#10;1552996239706	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0&#10;1552996239709	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider&#10;1552996239710	addons.manager	DEBUG	Provider finished startup: XPIProvider&#10;1552996239710	addons.manager	DEBUG	Starting provider: LightweightThemeManager&#10;1552996239710	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager&#10;1552996239710	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager&#10;1552996239711	addons.manager	DEBUG	Starting provider: GMPProvider&#10;1552996239737	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider&#10;1552996239737	addons.manager	DEBUG	Provider finished startup: GMPProvider&#10;1552996239738	addons.manager	DEBUG	Starting provider: PluginProvider&#10;1552996239738	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider&#10;1552996239739	addons.manager	DEBUG	Provider finished startup: PluginProvider&#10;1552996239739	addons.manager	DEBUG	Completed startup sequence&#10;1552996240271	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS&#10;1552996240272	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...&#10;1552996240274	addons.xpi-utils	DEBUG	Successfully read XPI database&#10;1552996240285	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;&#10;1552996240285	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;&#10;1552996240285	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;&#10;*** Blocklist::_loadBlocklistFromFile: blocklist is disabled&#10;1552996240434	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider&#10;1552996240435	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider&#10;1552996240435	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider&#10;&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;INL-73BYXC2&apos;, ip: &apos;10.154.187.44&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ous5092838128205688924webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.45.0","st":1552996220941,"mt":1552996220391}},"app-system-defaults":{"e10srollout@mozilla.org":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","e":true,"v":"1.3","st":1476903776000},"firefox@getpocket.com":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","e":true,"v":"1.0.4","st":1476903776000},"webcompat@mozilla.org":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","e":true,"v":"1.0","st":1476903776000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","e":true,"v":"49.0.2","st":1476903776000}},"winreg-app-global":{"{D19CA586-DD6C-4a0a-96F8-14644F340D60}":{"d":"C:\\Program Files\\Common Files\\McAfee\\SystemCore","e":false,"v":"15.4.0","st":1552989588584,"mt":1548842431104}}}
+1552996239636	addons.xpi	DEBUG	No changes found
+1552996239651	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1552996239652	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1552996239671	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.3
+1552996239672	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1552996239674	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1552996239681	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.4
+1552996239700	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\SARVES~1.JAI\AppData\Local\Temp\anonymous5092838128205688924webdriver-profile\extensions.json
+1552996239702	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1552996239703	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1552996239706	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1552996239709	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1552996239710	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1552996239710	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1552996239710	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1552996239710	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1552996239711	addons.manager	DEBUG	Starting provider: GMPProvider
+1552996239737	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1552996239737	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1552996239738	addons.manager	DEBUG	Starting provider: PluginProvider
+1552996239738	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1552996239739	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1552996239739	addons.manager	DEBUG	Completed startup sequence
+1552996240271	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1552996240272	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1552996240274	addons.xpi-utils	DEBUG	Successfully read XPI database
+1552996240285	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1552996240285	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1552996240285	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1552996240434	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1552996240435	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1552996240435	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'INL-73BYXC2', ip: '10.154.187.44', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: driver.version: FirefoxDriver
+	at example.NewTest.beforeTest(NewTest.java:22)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: 
+Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ous5092838128205688924webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.45.0","st":1552996220941,"mt":1552996220391}},"app-system-defaults":{"e10srollout@mozilla.org":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","e":true,"v":"1.3","st":1476903776000},"firefox@getpocket.com":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","e":true,"v":"1.0.4","st":1476903776000},"webcompat@mozilla.org":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","e":true,"v":"1.0","st":1476903776000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","e":true,"v":"49.0.2","st":1476903776000}},"winreg-app-global":{"{D19CA586-DD6C-4a0a-96F8-14644F340D60}":{"d":"C:\\Program Files\\Common Files\\McAfee\\SystemCore","e":false,"v":"15.4.0","st":1552989588584,"mt":1548842431104}}}
+1552996239636	addons.xpi	DEBUG	No changes found
+1552996239651	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1552996239652	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1552996239671	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.3
+1552996239672	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1552996239674	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1552996239681	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.4
+1552996239700	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\SARVES~1.JAI\AppData\Local\Temp\anonymous5092838128205688924webdriver-profile\extensions.json
+1552996239702	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1552996239703	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1552996239706	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1552996239709	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1552996239710	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1552996239710	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1552996239710	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1552996239710	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1552996239711	addons.manager	DEBUG	Starting provider: GMPProvider
+1552996239737	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1552996239737	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1552996239738	addons.manager	DEBUG	Starting provider: PluginProvider
+1552996239738	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1552996239739	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1552996239739	addons.manager	DEBUG	Completed startup sequence
+1552996240271	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1552996240272	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1552996240274	addons.xpi-utils	DEBUG	Successfully read XPI database
+1552996240285	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1552996240285	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1552996240285	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1552996240434	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1552996240435	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1552996240435	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+
+	at example.NewTest.beforeTest(NewTest.java:22)
+]]></failure>
+    <system-err><![CDATA[org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ous5092838128205688924webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.45.0","st":1552996220941,"mt":1552996220391}},"app-system-defaults":{"e10srollout@mozilla.org":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","e":true,"v":"1.3","st":1476903776000},"firefox@getpocket.com":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","e":true,"v":"1.0.4","st":1476903776000},"webcompat@mozilla.org":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","e":true,"v":"1.0","st":1476903776000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","e":true,"v":"49.0.2","st":1476903776000}},"winreg-app-global":{"{D19CA586-DD6C-4a0a-96F8-14644F340D60}":{"d":"C:\\Program Files\\Common Files\\McAfee\\SystemCore","e":false,"v":"15.4.0","st":1552989588584,"mt":1548842431104}}}
+1552996239636	addons.xpi	DEBUG	No changes found
+1552996239651	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1552996239652	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1552996239671	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.3
+1552996239672	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1552996239674	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1552996239681	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.4
+1552996239700	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\SARVES~1.JAI\AppData\Local\Temp\anonymous5092838128205688924webdriver-profile\extensions.json
+1552996239702	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1552996239703	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1552996239706	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1552996239709	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1552996239710	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1552996239710	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1552996239710	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1552996239710	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1552996239711	addons.manager	DEBUG	Starting provider: GMPProvider
+1552996239737	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1552996239737	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1552996239738	addons.manager	DEBUG	Starting provider: PluginProvider
+1552996239738	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1552996239739	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1552996239739	addons.manager	DEBUG	Completed startup sequence
+1552996240271	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1552996240272	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1552996240274	addons.xpi-utils	DEBUG	Successfully read XPI database
+1552996240285	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1552996240285	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1552996240285	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1552996240434	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1552996240435	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1552996240435	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at example.NewTest.beforeTest(NewTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Mar 19, 2019 5:21:23 PM org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+INFO: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@11f9e9
+]]></system-err>
+  </testcase>
+  <testcase name="testEasy" classname="example.NewTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="example.NewTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
